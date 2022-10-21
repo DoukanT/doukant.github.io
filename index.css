@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Rochester&family=Telex&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.logo {
+    width: 80%;
+    color: azure;
+    padding-left: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.parts {
+    width: 100%;
+    font-family: 'Signika', sans-serif;
+}
+
+.parts ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.parts ul li {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parts ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.main .sol{
+    width: 20%;
+}
+
+.main .sağ{
+    width: 20%;
+}
+
+.main .orta{
+    width: 60%;
+    padding-top: 5rem;
+}
+
+.main .orta .topic, 
+.main .orta .plan,
+.main .orta .task {
+    padding-bottom: 3.5rem;
+}
+
+.main .orta h1 {
+    padding-bottom: 4rem;
+    color: azure;
+    font-size: 3rem;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    font-family: 'Caudex', serif;
+}
+
+.main .orta h2 {
+    color: rgba(240, 46, 169, 0.842);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    padding-bottom: .6rem;
+}
+
+.main .orta p {
+    color: azure;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+/* about us part */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(20, 20, 20);
+    height: auto;
+    min-height: 100vh;
+    padding-top: 3rem;
+}
+
+.about .sağ {
+    width: 20%;
+}
+
+.about .sol {
+    width: 60%;
+}
+
+.about .orta {
+    padding-top: 4rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .orta h2 {
+    padding-top: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: azure;
+    text-decoration: underline;
+}
+
+.about .orta .mail,
+.about .orta .github {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.about .orta h3 {
+    padding-top: .5rem;
+    font-family: 'Caudex', serif;
+    font-size: 1.1rem;
+    color: azure;
+
+}
